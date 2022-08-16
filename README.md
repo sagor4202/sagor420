@@ -20,5 +20,19 @@
 
 <b><h2>😈steghide install and run commnet(linux)😈</b></h2>
 
-<b><h3>😎step one. <b><h3>
+<b><h3>😎step one.(install) <b><h3>
 
+`$sudo apt-get install steghide`
+<img src="https://linuxhint.com/wp-content/uploads/2021/08/word-image-126.png">
+
+<b><h3>😎Step Two.(massage hide (Picture) </b></h3>
+  
+`$steghide embed –ef alpha.txt –cf image.jpeg`
+<img src="https://linuxhint.com/wp-content/uploads/2021/08/word-image-128.png">
+ 
+<b><h3>🙌If you want to extact hide massage🙌<h3><b>
+`$steghide extract –sf image.jpeg`
+  
+<img src="https://linuxhint.com/wp-content/uploads/2021/08/word-image-129.png">
+
+ 
